@@ -1,16 +1,17 @@
 # Walmart Sales Forecasting
+This repository presents a time series forecasting project focused on Walmart weekly sales prediction at the store-department level.
 
-This repository presents a time series forecasting project focused on weekly sales prediction for Walmart stores and departments.
+The study compares traditional statistical methods and modern deep learning approaches, including Exponential Smoothing, ARIMA/SARIMA, SARIMAX, Prophet, and GRU neural networks.
 
-The analysis compares multiple forecasting approaches, including Exponential Smoothing, ARIMA/SARIMAX, Prophet, and GRU-based recurrent neural networks.
+The analysis covers key time series concepts such as trend, seasonality, autocorrelation, stationarity, holiday effects, and external regressors.
 
-The workflow includes data preprocessing, feature engineering, exploratory analysis, seasonality assessment, and model evaluation.
+Forecasting models are evaluated based on predictive accuracy, implementation complexity, computational efficiency, and practical suitability for retail applications.
 
-The dataset is structured by store, department, date, holiday indicators, markdown variables, and external economic features such as CPI, fuel price, temperature, and unemployment.
+The case study highlights the challenges of retail forecasting, including short time series, incomplete promotional data, outliers, holidays, and sudden demand changes.
 
-The project investigates temporal patterns in weekly sales, with particular attention to holiday effects, store-level heterogeneity, and recurring seasonal behavior.
+Prophet emerged as a strong practical solution, balancing accuracy, flexibility, limited tuning requirements, and the ability to handle irregular events such as holidays.
 
-Classical statistical models are compared with machine learning and deep learning methods to evaluate their suitability for retail demand forecasting.
+GRU networks showed potential in capturing complex temporal patterns, although they require larger datasets, longer training times, and greater computational resources.
 
-Forecasting performance is assessed using error metrics such as MAE and RMSE.
+The project also discusses business applications such as inventory planning, workforce optimization, revenue projection, and store-level performance monitoring.
 
